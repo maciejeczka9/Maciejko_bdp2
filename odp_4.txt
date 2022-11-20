@@ -1,0 +1,24 @@
+1 MySQL - polcenie wyciagajace zapytanie do utworzenia tabeli - znajdziemy tam info o definicji 
+show create table "nazwa tabeli"
+
+2. PostreSQL
+
+SELECT 
+   table_name, 
+   column_name, 
+   data_type 
+FROM 
+   information_schema.columns 
+where table_name like "nazwa tabeli"
+
+3. Oracle
+
+describe "nazwa tabeli"
+
+/
+
+INNER JOIN -> część wspólna (iloczyn)
+LEFT JOIN -> wszystko z lewej tabeli i pasujące do niej rekordy z prawej
+RIGHT JOIN -> wszystko z prawej tabeli i pasujące do niej rekordy z lewej
+OUTER JOIN -> iloczyn kartezjański 
+ANTY JOIN-> xor
