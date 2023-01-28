@@ -1,0 +1,10 @@
+14.0
+8
+1       SQLINT              1       4       "\t"     1     ProductKey                                   ""
+2       SQLCHAR             2       5       "\t"     2     CurrencyAlternateKey                         Polish_CI_AS
+3       SQLCHAR             2       60      "\t"     3     First_Name                                   Polish_CI_AS
+4       SQLCHAR             2       60      "\t"     4     Last_Name                                    Polish_CI_AS
+5       SQLINT              1       4       "\t"     5     OrderDateKey                                 ""
+6       SQLINT              1       4       "\t"     6     OrderQuantity                                ""
+7       SQLFLT8             1       8       "\t"     7     UnitPrice                                    ""
+8       SQLCHAR             2       10      "\r\n"   8     SecretCode                                   Polish_CI_AS

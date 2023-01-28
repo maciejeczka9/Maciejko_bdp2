@@ -1,0 +1,1 @@
+bcp [dbo].CUSTOMERS_304179 in C:/Users/macie/Desktop/DokumentyMagdy/studia/sem2/BDP2/10/Internet_Sales_new3.csv -c -t\t -r\n -F2 -S Magda -T
